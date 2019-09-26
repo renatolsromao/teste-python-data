@@ -2,7 +2,8 @@
 
 Você conseguiu salvar o arquivo! Mas salvar arquivos localmente no 
 projeto não parece uma boa ideia.. Altere seu script para fazer o 
-upload desse arquivo para o S3.
+upload desse arquivo para o AWS S3. Você vai precisar dos acessos da 
+AWS, me pergunte sobre.
 
 ## Instruções:
 
