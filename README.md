@@ -8,11 +8,20 @@ Para fazer isso é recomendado utilizar o método
 [Search](https://openlibrary.org/dev/docs/api/search), especificando o
 parametro "subject" como "python".
 
-## Exemplo 
+## Exemplo de chamada para a API
 
 ```
 GET http://openlibrary.org/search.json?subject=python 
 ```
+
+## Instruções:
+
+- Faça o checkout desse branch
+- Crie um novo branch com o nome "**seu nome**_**nome desse branch**"
+- Crie o script para atender o necessário
+- Faça o commit e push para um branch com o mesmo nome do local para o 
+repositório.
+
 
 ## O que estamos esperando?
 
