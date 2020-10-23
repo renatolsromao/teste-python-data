@@ -1,5 +1,5 @@
-#código criado para salvar automaticamente no desktop (Windows)
 import requests
+import json
 import os
 
 opl = requests.get('http://openlibrary.org/search.json?subject=python')
@@ -11,5 +11,5 @@ except:
     "Erro ao capturar os dados."
 
 with open('C:/Users/' + os.getlogin() + '/Desktop/openLib.json','x') as f:
-    f.write(str(opl.json()))
+    json.dump(opl.json(),f)
 f.close()
